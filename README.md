@@ -43,3 +43,30 @@ vercel
 ## 📜 الترخيص
 
 MIT - استخدم بحرية ✌️
+
+---
+
+## 🚀 النشر التلقائي على Vercel
+
+### الطريقة 1: Vercel Dashboard (أسهل)
+
+1. اذهب إلى https://vercel.com/new
+2. استورد مشروع GitHub: `4zobir89-lab/nagham-bohimi`
+3. الإعدادات الافتراضية تعمل مباشرة
+4. اضغط **Deploy** 🎉
+
+### الطريقة 2: Vercel CLI
+
+```bash
+npm i -g vercel
+vercel login
+vercel --prod
+```
+
+### الطريقة 3: GitHub Actions (تلقائي)
+
+1. اذهب إلى https://vercel.com/account/tokens → أنشئ Token
+2. اذهب إلى Settings → Secrets → أضف `VERCEL_TOKEN`
+3. ربط المشروع على Vercel وجلب `ORG_ID` و `PROJECT_ID`
+4. أضفهم كـ Secrets في GitHub
+5. النشر تلقائي مع كل push إلى main 🚀

@@ -1,0 +1,11 @@
+{
+  "name": "nagham-bohimi",
+  "version": "1.0.0",
+  "description": "🎵 نغم بوهيمي - Bohemian Music Player",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": ["music", "spotify", "bohemian", "player"],
+  "license": "MIT"
+}
